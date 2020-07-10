@@ -20,16 +20,22 @@ condiments = {1: "capers", 2: "ketchup", 3: "mustard", 4: "mayo", 5: "olive oil"
 herbs = {1: "basil", 2: "cilantro", 3: "cumin", 4: "garlic", 5: "parsley", 6: "rosemary",}
 
 #meals
+
 def stuffedMushroom(): 
     print(veggies[13], veggies[14], dairy[8], dairy[2], meatFish[4])
+    
 def meatPasta(): 
     print(condiments[5], grains[5], meatFish[4], veggies[16], veggies[13], herbs[4])
+    
 def squashTomatoSoup(): 
     print(veggies[18], veggies[20], drinks[4], herbs[2], herbs[3], herbs[4], drinks[2])
+    
 def chickenPiccata():
     print(meatFish[2], grains[4], dairy[1], condiments[5], drinks[4], drinks[2], condiments[1], herbs[5]) 
+    
 def salmonCakes():
     print(meatFish[10], condiments[5], dairy[1], veggies[14], veggies[7], veggies[16], condiments[1], herbs[5], condiments[7], condiments[4], condiments[3], dairy[5]) 
 
 #enter meals in myList to create a grocery list.
+
 myList =[]
